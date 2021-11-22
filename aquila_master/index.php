@@ -1,5 +1,6 @@
 <?php
 include 'koneksi.php';
+
 include 'tgl_indo.php';
 error_reporting(E_ALL ^ (E_NOTICE | E_WARNING)); 
 
@@ -118,7 +119,7 @@ if ($_SESSION['kasir']) {
                             <li role="seperator" class="divider"></li>
                             
                             <li role="seperator" class="divider"></li>
-                            <li><a href="logout.php"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li><a href="../index.html"><i class="material-icons">input</i>Sign Out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -135,8 +136,7 @@ if ($_SESSION['kasir']) {
                         </a>
                     </li>
 
-
-                  
+             
 
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
@@ -183,7 +183,7 @@ if ($_SESSION['kasir']) {
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="?page=penjualan&kodepj=<?php echo $kode; ?>">
+                                    <a href="ngobar-9-codeigniter-master/index.php">    
                                     <i class="material-icons">person</i>
                                     <span>UPDATE DATA KELUARGA</span>
                                 </a>
@@ -192,15 +192,15 @@ if ($_SESSION['kasir']) {
 
                             <li>
                                
-                                 <a href="?page=laporan_penjualan&kodepj=<?php echo $kode; ?>">  
+                                 <a href="cetak_warga/index.php">  
                                     <i class="material-icons">picture_as_pdf</i>
                                     <span>MONITOR DATA KELUARGA</span>
                                 </a>
                             </li> 
                             <li>
-                               <a href="page/laporan_penjualan/cetak.php">    
+                               <a href="cetak_warga/cetak_perkel.php">    
                                     <i class="material-icons">picture_as_pdf</i>
-                                    <span>CETAK DATA WARGA</span>
+                                    <span>CETAK PER KELUARGA</span>
                                 </a>
                             </li>
 

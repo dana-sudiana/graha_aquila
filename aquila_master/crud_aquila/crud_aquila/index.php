@@ -35,7 +35,7 @@ p    {color: red;}
 <br>
 <table border="1" cellpadding="10" cellspacing="0">
 
-	<tr bgcolor="#FF5A57">
+	<tr bgcolor="#388686">
 		<th>NO.</th>
 		<th>UPDATE</th>
 		<th>PHOTO</th>

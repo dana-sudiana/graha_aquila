@@ -27,9 +27,9 @@
     <section class="portfolio" id="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center">
-            <h2>BERITA WARGA</h2>
-            <hr>
+          <div class="col-sm-12 text-left">
+            <h2 class="info">BERITA WARGA</h2>
+            
           </div>
         </div>
 

@@ -17,8 +17,7 @@ while ($tampil = $sql->fetch_assoc()) {
                             <i class="material-icons">home</i>
                         </div>
                         <div class="content">
-                            <div class="text">Data RUMAH & WARGA</div>
-
+                            <div class="text">Data RUMAH</div>
                             <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"><?php echo $jumlah_barang;?></div>
                         </div>
                     </div>

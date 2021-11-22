@@ -42,6 +42,11 @@ hr {
 .berita p, a{
 	color:#ff000d;
 }
+.info h2{
+	color:#0B486B;
+
+	background-color: #0B486B
+}
 section {
 	min-height: 600px;
 }
