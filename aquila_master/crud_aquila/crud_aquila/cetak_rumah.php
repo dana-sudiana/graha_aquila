@@ -18,7 +18,12 @@ h1   {color: blue;}
 p    {color: red;}
 </style>
 </head>
-
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 <body>
 	
 
@@ -26,7 +31,7 @@ p    {color: red;}
 
 <table border="1" cellpadding="10" cellspacing="0">
 
-	<tr bgcolor="#FF5A57">
+	<tr bgcolor="#388686">
 		<th>NO.</th>
 				
 		<th>NO.RMH</th>

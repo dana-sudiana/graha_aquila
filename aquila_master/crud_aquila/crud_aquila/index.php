@@ -22,13 +22,13 @@ p    {color: red;}
 
 <h1 style="color:blue;">RUMAH GRAHA AQUILA</h1>
 
-<a href="tambah.php">TAMBAH RUMAH WARGA</a>
+<a href="tambah.php" style="color:#171717;">TAMBAH RUMAH WARGA</a>
 <br><br>
 
 <form action="" method="post">
 
 	<input type="text" name="keyword" size="40" autofocus placeholder="masukkan keyword pencarian.." autocomplete="off">
-	<button type="submit" name="cari">Cari!</button>
+	<button type="submit" name="cari" style="color:red;">Cari!</button>
 	
 </form>
 
