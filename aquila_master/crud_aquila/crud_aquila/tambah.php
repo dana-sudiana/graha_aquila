@@ -40,6 +40,7 @@ p    {color: red;}
 
 	<form action="" method="post" enctype="multipart/form-data">
 		<ol>
+			<hr />
 			<li>
 				<label for="nrp">NOMER RUMAH : </label>
 				<input type="text" name="nrp" id="nrp" required>
@@ -87,6 +88,7 @@ p    {color: red;}
 				<input type="file" name="gambar" id="gambar">
 			</li>
 			<br>
+			<hr />
 			<li>
 				<button type="submit" name="submit">Tambah Data!</button>
 			</li>

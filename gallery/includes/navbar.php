@@ -13,7 +13,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li <?php if(!$_GET['menu']){ echo 'class="active"'; } ?>><a href="index.php">Home</a></li>
-					
+					<li <?php if(!$_GET['menu']){ echo 'class="active"'; } ?>><a href="delete_gbr/index.php">Delete</a></li>
 					<li <?php if($_GET['menu'] == 'upload'){ echo 'class="active"'; } ?>><a href="upload.php?menu=upload">Upload</a></li>
 				</ul>
 			</div>

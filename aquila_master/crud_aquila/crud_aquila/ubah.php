@@ -50,6 +50,7 @@ p    {color: red;}
 		<input type="hidden" name="gambarLama" value="<?= $mhs["gambar"]; ?>">
 		<ol>
 			<li>
+				<hr />
 				<label for="nrp">NOMER RUMAH : </label>
 				<input type="text" name="nrp" id="nrp" required value="<?= $mhs["nrp"]; ?>">
 			</li>
@@ -103,6 +104,7 @@ p    {color: red;}
 				<input type="file" name="gambar" id="gambar">
 			</li>
 			<br>
+			<hr />
 			<li>
 				<button type="submit" name="submit">Ubah Data!</button>
 			</li>

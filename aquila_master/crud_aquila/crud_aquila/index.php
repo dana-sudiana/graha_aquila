@@ -14,13 +14,13 @@ if( isset($_POST["cari"]) ) {
 	<title>Halaman Admin</title>
 	<style>
 body {background-color: powderblue;}
-h1   {color: blue;}
+h1   {color: #171717;}
 p    {color: red;}
 </style>
 </head>
 
 
-<h1 style="color:blue;">RUMAH GRAHA AQUILA</h1>
+<h1 style="color:#171717;">RUMAH GRAHA AQUILA</h1>
 
 <a href="tambah.php" style="color:#171717;">TAMBAH RUMAH WARGA</a>
 <br><br>
@@ -52,8 +52,8 @@ p    {color: red;}
 	<tr>
 		<td><?= $i; ?></td>
 		<td>
-			<a href="ubah.php?id=<?= $row["id"]; ?>">ubah</a> |
-			<a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?');">hapus</a>
+			<a href="ubah.php?id=<?= $row["id"]; ?>" >ubah</a> |
+			<a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('yakin?');" style="color:red;">hapus</a>
 		</td>
 		<td><img src="img/<?= $row["gambar"]; ?>" width="60"></td>
 		<td><?= $row["nrp"]; ?></td>
